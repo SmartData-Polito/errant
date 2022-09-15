@@ -3,12 +3,11 @@ ERRANT: EmulatoR of Radio Access NeTworks
 
 ERRANT is an advanced emulator of radio access networks, tuned thank to a large-scale measurement campaign on operational mobile networks.
 
-It uses `tc-netem` to install traffic shaping policies, allowing the user to choose between 32 profiles that differ for emulated operator, RAT (3g or 4g) and signal quality. The exact parameters of the shaping policies are dynamic, in the sense that they may vary at each run based on the values observed on the real network. 
+It uses `tc-netem` to install traffic shaping policies, allowing the user to choose between 34 profiles that differ for emulated operator, RAT (3g, 4g, GeoSatCom, StarLink) and signal quality. The exact parameters of the shaping policies are dynamic, in the sense that they may vary at each run based on the values observed on the real network. 
 The available profiles are saved in the `model.pickle` file. ERRANT can also vary parameters dynamically (every `n` seconds) to emulate variable networks, and simulate moving scenario using the `ApplyScenario` script. 
 
 An overview of the available profiles is depicted below, while you can find more in our [paper](https://arxiv.org/abs/2106.06335).
 ![ERRANT Framework](errant_profiles.jpg)
-
 
 
 ## Prerequisites
