@@ -31,7 +31,7 @@ errant -o operator -c country -t technology -q quality -i interface [-p period] 
 Parameters are:
 * `operator`: the Mobile Network Operator to emulate.
 * `country`: the country network to emulate.
-* `technology`: whether to emulate 3g or 4g.
+* `technology`: whether to emulate 3g, or 4g, or geosatcom, or starlink.
 * `quality`: signal quality to emulate: bad, medium or good.
 * `interface`: the name of the interface where to apply shaping.
 * `period`: change network conditions periodically after `period` seconds.
